@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Nothing to move, artifact it"
+
+artifacts:
+  files:
+    - '**/*'
