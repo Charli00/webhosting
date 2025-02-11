@@ -1,10 +1,12 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
   build:
     commands:
-      - echo "Nothing to move, artifact it"
-
+      - echo "Building project..."
 artifacts:
   files:
-    - '*/'
+    - '**/*'
