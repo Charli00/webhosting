@@ -1,15 +1,12 @@
-*{
-    padding: 10px;
-    margin:-1px;
-}
+
 div{
     display: flex;
     /* flex-direction: column-reverse; */
-    width: 50px;
+    width: 20px;
 
 }
 h1{
-    color:aquamarine;
+    color:black;
     background-color: red;
     border:2px solid black;
  
@@ -27,4 +24,10 @@ h3{
     color:blue;
 
 
+}
+h4{
+    color:black;
+    background-color: red;
+    border:2px solid black;
+ 
 }
