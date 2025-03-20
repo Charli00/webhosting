@@ -1,11 +1,14 @@
 
 div{
-    display: flex;
-    /* flex-direction: column-reverse; */
-    width: 200px;
+    /* display: flex; */
     background-color: aqua;
-    border: 20px;
-    flex-wrap: nowrap;
+    border-radius: 20px;
+    display: flex;
+    /* margin:20px; */
+
+    justify-content: space-around;
+    /* width:500px; */
+
 
 }
 h1{
