@@ -4,25 +4,27 @@
 }
 div{
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+    width: 50px;
+
 }
 h1{
     color:aquamarine;
     background-color: red;
     border:2px solid black;
-    width: fit-content;
+ 
 }
 h2{
     background-color: red;
     border:2px solid black;
     color:wheat;
-    width: fit-content;
+
 
 }
 h3{
     background-color: red;
     border:2px solid black;
     color:blue;
-    width: fit-content;
+
 
 }
