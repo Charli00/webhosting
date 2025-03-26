@@ -1,0 +1,32 @@
+<!-- Exercise 
+Create 2 input box with id "num1" and "num2" 
+On a button click take the two values from both the boxes and store it in a variable called "total" 
+Create a p tag with id "result". Everytime user click add button the added result should be displayed in p tag -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="50">
+    <meta name="viewport" content="width=device-width" intial-scale="1.0">
+    <link rel="stylesheet" href="">
+
+
+</head>
+
+<body>
+    <div>
+        <label for="num1">First Number</label><br>
+        <input type="text" id="num1" name="num1" placeholder="enter the number">
+
+    </div>
+    <div>
+        <label for="num2">second Number</label><br>
+        <input type="text" id="num2" name="num2" placeholder="enter the second number">
+    </div>
+    <div>
+        <button id="submit" onclick="add_number()">click me</button>
+    </div>
+    <p id="result"></p>
+    <script src="Event_handler2.js"></script>
+</body>
