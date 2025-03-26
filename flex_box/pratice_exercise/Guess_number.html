@@ -7,8 +7,7 @@ Your Score:9 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale='1.0'>
-    <meta http-equiv="refresh" content="100">
-    <script src="Guess_number.js"></script>
+    <meta http-equiv="refresh" content="40">
     <link rel="stylesheet" href="gues_number.css">
 
 </head>
@@ -17,5 +16,18 @@ Your Score:9 -->
         <div id="heading">
             <h1>GUESS THE NUMBER GAME</h1>
         </div>
+        <div>
+            <label for="Random_Number">Enter the Number from 1 to 10</label>
+        </div>
+        <div>
+            <input type="text" id="Number" name="Number">
+        </div>
+        <div>
+            <button id="submit" onclick="Get_user_Random()">Check it !(Right or wrong)</button>
+        </div>
+        <p id="Final_score"></p>
+        <p id="Wrong_ANSWER"></p>
+        <script src="Guess_number.js"></script>
+
     </div>
 </body>
