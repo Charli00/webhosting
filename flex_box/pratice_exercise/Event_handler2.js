@@ -1,6 +1,7 @@
 // let num1=document.getElementById("num1");
 // let num2=document.getElementById("num2");
 
+console.log(Math.random()*10)
 function add_number(){
     let num1=parseFloat(document.getElementById("num1").value);
     let num2=parseFloat(document.getElementById("num2").value);
@@ -13,4 +14,5 @@ function add_number(){
    document.getElementById("result").textContent= "SUM of the Number is : "+total
 
     console.log(total);
+ 
 }

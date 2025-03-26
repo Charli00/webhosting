@@ -1,0 +1,10 @@
+*{
+
+    background-color: gold;
+    color:crimson;
+}
+#container{
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+}
