@@ -1,0 +1,24 @@
+<input type="text" id="nameInput">
+<button onclick="showName()">Show Name</button>
+
+<script>
+    function showName() {
+    let name = document.getElementById("nameInput").value;
+    alert("You entered: " + name);
+  }
+</script>
+
+<div id="container">
+  <p>Existing Paragraph</p>
+</div>
+<button onclick="addPara()">Add Paragraph</button>
+
+<script>
+  function addPara() {
+    let newPara = document.createElement("p"); // Create a <p> element
+    newPara.innerHTML = "New Paragraph Added"; // Add text inside
+    document.getElementById("container").appendChild(newPara); // Add to div
+  }
+</script>
+
+
