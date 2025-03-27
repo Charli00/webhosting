@@ -1,0 +1,27 @@
+<!-- How can you use JavaScript to accomplish the following task: When a user 
+clicks a 'Hello' button, how do you dynamically create an `<h1>` element and add it to a specific 
+    Add Hello 
+    Hello 
+    Hello 
+    Hello -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="60">
+    </head>
+    <body>
+        <button id="Output" onclick="update()">ADD</button>
+        <div id="Result"></div>
+    </body>
+    <script>
+        var final=document.getElementById("Result");
+        function update(){
+            var listitems=document.createElement("h1"); //<h1></h1>
+            listitems.textContent="You are welcome"; 
+            final.append(listitems)
+        }
+    </script>
+
+</html>
