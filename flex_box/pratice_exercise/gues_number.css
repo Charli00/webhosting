@@ -13,9 +13,9 @@
     color:red;
 }
 #Final_score{
-    color:green;
+    color:rgb(113, 170, 113);
 }
 #submit{
-    background-color: rgb(95, 48, 20);
+    background-color: rgb(60, 166, 202);
     border:2px solid black;
 }

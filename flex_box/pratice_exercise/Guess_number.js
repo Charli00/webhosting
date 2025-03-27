@@ -3,10 +3,10 @@ function Get_user_Random(){
     let first_number=parseInt(document.getElementById("Number").value); 
     // let Random_number=(Math.random()*10)
     
-    let Random_number = Math.floor(Math.random() * 10 +1); //0 to 9
+    let Random_number = Math.floor(Math.random() * 10); //0 to 9
     console.log("Generated Random Number : "+Random_number)
-    if (isNaN(first_number) || first_number < 0 || first_number >12){
-        alert("Please enter the valid number : ");
+    if (isNaN(first_number) || first_number < 0 || first_number > 9){
+        alert("Please enter the valid number and the number should be 1 to 9 : ");
         return;
     }
     if (first_number === Random_number) {
@@ -18,6 +18,8 @@ function Get_user_Random(){
         console.log("Please enter another number one more")
         document.getElementById("Wrong_ANSWER").textContent="The random number is : "+Random_number + " and You enter the : " +first_number;
     }
+
+
 
 
 
