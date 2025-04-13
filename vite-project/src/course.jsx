@@ -1,14 +1,22 @@
-import HTML from "./assets/Python.png"
-function Course(){
-    return(
-        <div className="Card">
-            <img src={HTML}alt="Python P"></img>
+function Course(props) {
+    return (
+        <>
 
-            <h1>Python Programming</h1>
-            <p>Easy to learn the Programming</p>
+            <div className="Card">
+                <p><img src={props.image} alt=""></img></p>
+                <h1>{props.name}</h1>
+                <span>{props.price}</span>
+            </div>
+            
 
-        </div>
+        </>
     );
-
 }
+//default props defining method
+Course.defaultProps={
+    price:'23',
+};
+
+
+
 export default Course

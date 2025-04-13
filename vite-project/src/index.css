@@ -1,20 +1,27 @@
-*{
+/* *{
   display: flex;
   flex-direction: column;
-}
+} */
 
 .Card {
   color:red;
   /* border-radius: 40px; */
   border: 3px solid black;
-  border-radius: 10px;
-  max-width: 300px;
-  background-color: aqua;
-  justify-content: center;
+  border-radius: 15px;
+  /* width: 300px; */
+  background-color: rgba(31, 34, 8, 0.144);
+  display: inline-block;
+  margin-right: 20px;
+  justify-items: center;
+  /* justify-content: center; */
+  align-content: center;
 }
 .Card img{
   width: 200px;
   margin: 10px;
+  height: 120px;
+  border: 1px ;
+  
 
   
   /* background-color: aqua; */
