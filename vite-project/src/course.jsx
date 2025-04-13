@@ -1,8 +1,8 @@
-// import style from "./course.module.css"
-
+import HTML from "./assets/Python.png"
 function Course(){
     return(
-        <div className={style.course}>
+        <div className="Card">
+            <img src={HTML}alt="Python P"></img>
 
             <h1>Python Programming</h1>
             <p>Easy to learn the Programming</p>
