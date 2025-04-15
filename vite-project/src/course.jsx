@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Course(props) {
     return (
         <>
@@ -13,10 +15,11 @@ function Course(props) {
     );
 }
 //default props defining method
-Course.defaultProps={
-    price:'23',
-};
+// Course.defaultProps={
+//     price:'23',
+// };
 
-
-
+Course.PropTypes = {
+    name:PropTypes.number,
+}
 export default Course

@@ -10,11 +10,12 @@
   border-radius: 15px;
   /* width: 300px; */
   background-color: rgba(31, 34, 8, 0.144);
-  display: inline-block;
+  display:inline-block;
   margin-right: 20px;
   justify-items: center;
-  /* justify-content: center; */
-  align-content: center;
+  justify-content: center;
+  align-content: center;  
+  /* grid-template-rows: 1fr 1fr 1fr; */
 }
 .Card img{
   width: 200px;

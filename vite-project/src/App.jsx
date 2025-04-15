@@ -15,7 +15,7 @@ function App(){
     <>
 
     <Course price={200} name="Python Programming" image={Python}></Course>
-    <Course name="HTML PROGRAMMING" image={HTML}></Course>
+    <Course name="HTML Programming" image={HTML} price={20}></Course>
     <Course price={20} name="CSS PROGRAMMING" image={CSS}></Course>
     <Course price={110} name="Javascript PROGRAMMING" image={Javascript}></Course>
 
